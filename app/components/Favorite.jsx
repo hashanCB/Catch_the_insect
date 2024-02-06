@@ -10,7 +10,7 @@ const Favorite = ({ handlerpage, gameact }) => {
       </h1>
       <div className=" flex justify-center text-center flex gap-4">
         {" "}
-        <div className=" border-white border-2 cursor-pointer">
+        {/* <div className=" border-white border-2 cursor-pointer">
           <Image
             src="/fly_PNG3946.png"
             width={100}
@@ -19,7 +19,7 @@ const Favorite = ({ handlerpage, gameact }) => {
               gameact("fly");
             }}
           />
-        </div>
+        </div> */}
         <div className=" border-white border-2 cursor-pointer ">
           <Image
             src="/spider_PNG12.png"
@@ -30,7 +30,6 @@ const Favorite = ({ handlerpage, gameact }) => {
             }}
           />
         </div>
-        <Button name="Play Games" click={handlerpage} />
       </div>
     </div>
   );
